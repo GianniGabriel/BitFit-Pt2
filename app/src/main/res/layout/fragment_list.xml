@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_food_item_button_label"
+        app:backgroundTint="#73B85B" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/food_list_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/no_food_items_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no_food_items_added"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/average_calories_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/average_calories"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:visibility="gone" />
+
+</LinearLayout>

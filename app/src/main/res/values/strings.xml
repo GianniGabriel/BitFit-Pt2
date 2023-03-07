@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BitFit-Pt2</string>
+    <string name="no_food_items_added">No food items added</string>
+    <string name="add_food_item_button_label">Add Food Item</string>
+    <string name="average_calories">Average Calories: %d</string>
+    <string name="minimum_calories">Least Caloric Food: %s %d calories</string>
+    <string name="maximum_calories">Most Caloric Food: %s %d calories</string>
+
+
+</resources>
